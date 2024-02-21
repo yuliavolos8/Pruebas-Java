@@ -16,8 +16,7 @@ public class Perro {
 	public void setHambriento(boolean h) {
 		this.hambriento = h;
 	}
-// prueba subir a repositorio
-	
+
 	public int getEdad() {
 		return this.edad;
 	}
