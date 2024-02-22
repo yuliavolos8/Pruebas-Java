@@ -5,7 +5,14 @@ public class Perro {
 	private int edad;
 	private String raza;
 	private boolean hambriento;
+	private String color;
 
+	public String getColor() {
+		return color;
+	}
+	public void setColor(String color) {
+		this.color = color;
+	}
 	public Perro(String n, int e, String r) {
 		this.nombre = n;
 		this.edad = e;
@@ -58,5 +65,7 @@ public class Perro {
     	System.out.println( edad);
     
 	}
-
+	
+	
+	
 }
