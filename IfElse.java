@@ -2,7 +2,7 @@ package udemy;
 
 import java.util.Scanner;
 
-public class SwitchLetra {
+public class IfElse {
 
 	public static void main(String[] args) {
 
