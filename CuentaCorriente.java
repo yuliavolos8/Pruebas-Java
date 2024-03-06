@@ -5,18 +5,18 @@ public class CuentaCorriente {
 	private int numero;
 	private double saldo;
 
-	private CuentaCorriente() {
+	public CuentaCorriente() {
 		this.numero = (int) (Math.random() * (1000 - 0 + 1) + 0);
 		this.saldo = 0;
 	}
 
-	private CuentaCorriente(int numero) {
+	public CuentaCorriente(int numero) {
 
 		this.numero = numero;
 		this.saldo = 0;
 	}
 
-	private CuentaCorriente(int numero, double saldo) {
+	public CuentaCorriente(int numero, double saldo) {
 		this.numero = numero;
 		this.saldo = saldo;
 	}
