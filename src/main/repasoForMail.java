@@ -15,7 +15,7 @@ public class repasoForMail {
 		}
 		if (arroba == true) {
 
-			System.out.println(" correcto");
+			System.out.println("mail correcto");
 		} else {
 			System.out.println(" mail no valido");
 		}
