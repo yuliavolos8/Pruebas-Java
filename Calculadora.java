@@ -4,7 +4,7 @@ public class Calculadora {
 
 	int num1;
 	int num2;
-
+// creamos constructor con parametros
 	public Calculadora(int a, int b) {
 		this.num1 = a;
 		this.num2 = b;
