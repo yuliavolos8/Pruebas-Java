@@ -56,7 +56,7 @@ public class LavadoraFunciones {
 		this.secadoTerminado = 1;
 	}
 
-//final
+//final de lavado y secado.
 	public void finalizado() {
 		secar();
 		System.out.println("el lavado y secado esta acabado");
