@@ -15,7 +15,7 @@ public class LavadoraFunciones {
 		this.lavadoIniciado = 0;
 	}
 
-//metodo para llenar la lavadora , sin superar las limites
+//metodo para llenar la lavadora , sin superar los limites de peso
 	private void llenarLavadora() {
 		if (this.kilos <= 12) {
 			this.llenadoTerminado = 1;
