@@ -15,15 +15,29 @@ public class LavadoraFunciones {
 		this.lavadoIniciado = 0;
 	}
 
-//metodo para llenar la lavadora , sin superar los limites de peso
-	private void llenarLavadora() {
-		if (this.kilos <= 12) {
-			this.llenadoTerminado = 1;
-			System.out.println("llenado completado");
-		} else
+	public int getKilos() {
+		return kilos;
+	}
 
-		{
-			System.out.println("no superar 12 kilos");
+	public int getTipoDeRopa() {
+		return tipoDeRopa;
+	}
+
+	public void setKilos(int kilos) {
+		this.kilos = kilos;
+	}
+
+	public void setTipoDeRopa(int tipoDeRopa) {
+		this.tipoDeRopa = tipoDeRopa;
+	}
+
+	// metodo para llenar la lavadora , sin superar los limites de peso
+	private void llenarLavadora() {
+
+		if (this.kilos <= 12) {
+			System.out.println("llenado completo");
+			this.llenadoTerminado = 1;
+		} else {
 			this.llenadoTerminado = 0;
 		}
 	}
